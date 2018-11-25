@@ -13,6 +13,8 @@
 
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/carousel.css">
+        
 
         <link rel="icon" type="image/png" href="favicon.png">
 
@@ -53,15 +55,39 @@
                     </div>
                 </div>
     
-                <div class="intro center">
-                    <img src="static/TSG.svg" alt="Vidyasagar main Image" class="responsive-img">
-                </div>
+                <section class="slider">
+                    <ul class="carousel" id="carousel">
+                      <li class="bg-1">
+                        <img src="static/img/1.jpg" class="responsive-img center">
+                      </li>
+                      <li class="bg-2">
+                         <img src="static/img/2.jpg" class="responsive-img center">
+                      </li>
+                      <li class="bg-3">
+                         <img src="static/img/3.jpg" class="responsive-img center">
+                      </li>
+                      <li class="bg-4">
+                         <img src="static/img/4.jpg" class="responsive-img center">
+                      </li>
+                    </ul>
+                    <ul class="sliderpagnation">
+                        <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                        <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                        <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                        <li><a href="#"><i class="fa fa-circle"></i></a></li>
+                    </ul>
+            </section>
+
+
+
+                
+                
 
                 <div class="row">
                     <div class="about col s12 m8 offset-m2" id = "about">
                         <h1>About</h1>
                         <p>
-                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
+                            Vidyasagar Hall of residence was conceived in 1960 and named after the great scholar & social activist Pundit Iswat Chandra Vidyasagar. The hall started functioning from his birthday, 28th September 1965. From the day of its inception till date, VS has played a significant role in the campus. The VS Hall has experienced the stay of sole M.Tech., PhD’s and B.Tech, thereby having an outstanding contribution to the Institute. Its existence started with a U.G batch, then a mix of U.G & P.G. and then completely Ph.D scholars. Again it went with the U.Gs and for last ten years VS has been a complete P.G hall. One saying that reflects the hearty relationship among Vsites is that V (We) that comes before S(Self) in V.S.
                         </p>
 
                         <blockquote cite="http://">
@@ -69,12 +95,13 @@
                         </blockquote>
 
                         <p>
-                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
+                            The hall has 365 single rooms and two single seated guest rooms. All the rooms are equipped with the necessary furniture and have Internet facility through the Institute LAN. There is an ITC telephone booth, which is kept open for 24 hrs. Other facilities provided in the hall are Library, Common room, Music room, Canteen, Xerox Centre and Stationary shop.
                         </p>
+                        <br><br>
                     </div>
 
                 </div>
-                
+
             </div>
         </div>
 
@@ -88,6 +115,26 @@
                             <strong>Vidyasagar Hall of Residence</strong><br>
                             IIT Kharagpur, Kharagpur<br>
                             West Bengal - 721302<br>
+                        </address>
+                        <p class="grey-text text-lighten-4"></p>
+                    </div>
+                    
+                    <div class="col l4 s12">
+                        <h5>Hall President</h5>
+                        <address>
+                            <strong>Sheraz Islam</strong><br>
+                            IIT Kharagpur, Kharagpur<br>
+                            West Bengal - 721302<br>
+                        </address>
+                        <p class="grey-text text-lighten-4"></p>
+                    </div>
+                    
+                    <div class="col l4 s12">
+                        <h5>Website Coordinator</h5>
+                        <address>
+                            <strong>Anuprava Chatterjee</strong><br>
+                            B-212, Vidyasagar Hall of Residence<br>
+                            9933433443<br>
                         </address>
                         <p class="grey-text text-lighten-4"></p>
                     </div>
@@ -125,7 +172,12 @@
         </div>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+        <script type="text/javascript" src="https://use.fontawesome.com/26d5579a34.js"></script>
+        <script src="//code.jquery.com/jquery.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 
